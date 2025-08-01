@@ -37,7 +37,7 @@
     </div>
     <ul
       v-if="isOpen && filteredItems.length"
-      class="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-60 overflow-auto"
+      class="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-[6px] shadow-lg max-h-60 overflow-auto"
     >
       <li
         v-for="(item, index) in filteredItems"

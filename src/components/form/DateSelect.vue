@@ -6,7 +6,7 @@
       v-mask="'##.##.####'"
       @input="validateDate"
       :class="[
-        'w-full px-2 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200 focus:border-gray-200 transition-all duration-200',
+        'w-full px-2 py-2 border border-gray-200 rounded-[6px] focus:outline-none focus:ring-2 focus:ring-gray-200 focus:border-gray-200 transition-all duration-200',
         error ? 'border-red-500' : ''
       ]"
       placeholder="DD.MM.YYYY"
