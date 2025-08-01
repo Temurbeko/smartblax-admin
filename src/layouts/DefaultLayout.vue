@@ -1,7 +1,7 @@
 <template>
   <div class="flex min-h-screen">
     <Sidebar class="w-64" />
-    <div class="flex-1 p-6 bg-gray-50 ml-64">
+    <div class="flex-1 p-6 ml-64">
       <nav class="text-sm text-gray-600 space-x-1" >
         <router-link
           v-for="(crumb, index) in breadcrumbs"
